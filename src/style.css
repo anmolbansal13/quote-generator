@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+main{
+  /* max-width: 50%; */
+  padding: 36px;
+  padding-bottom: 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #ffffff 15%, #000000 100%);
+  color: black;
+  padding: 20px;
+}
+.header--image{
+  height: 65px;
+  margin-right: 6px;
+}
+.header--title{
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+.header--project{
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+.form--input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid rgb(37, 15, 15);
+  text-indent: 5px;
+}
+.form--button{
+  grid-column: 1/-1;
+  background-color: gold;
+  /* color: red; */
+  font-size: large;
+  font-weight: 600;
+}
+.quote--image{
+  border-radius: 8px;
+  height: 75vh;
+  /* max-height: 70%; */
+  /* height: 50vh; */
+}
+.react--logo--image{
+  height: 35px;
+}
+.quote{
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote--text{
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: -1px 1px 0 #000000,
+  1px 1px 0 #000000,
+  1px -1px 0 #000000,
+  -1px -1px 0 #000000;
+  /* background-color: rgba(0, 0, 0, 0.068); */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.top{
+  position: absolute;
+  margin: 1.5rem;
+  top: 0;
+}
+.bottom{
+  position: absolute;
+  margin: 1.5rem;
+  bottom: 0;
+}
