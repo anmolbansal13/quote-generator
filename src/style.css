@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 3px; */
 }
 body{
   margin: 0;
@@ -12,11 +12,12 @@ main{
   padding-bottom: 0;
 }
 .header{
+  margin :0px;
   display: flex;
   align-items: center;
   height: 65px;
   background: linear-gradient(90deg, #ffffff 15%, #000000 100%);
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 20px;
 }
 .header--image{
@@ -33,16 +34,22 @@ main{
   color: white;
 }
 .form{
-  display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  /* grid-template: 40px 40px / 1fr 1fr; */
+  gap: 10px;
+  margin : 10px;
 }
 .form--input{
+  width: 50%;
   font-family: "Karla", sans-serif;
-  border-radius: 5px;
+  border-radius: 12px;
   border: 1px solid rgb(37, 15, 15);
   text-indent: 5px;
+  padding: 10px 20px;
 }
 .form--button{
+  width: 50%;
   grid-column: 1/-1;
   background-color: gold;
   /* color: red; */
@@ -52,8 +59,8 @@ main{
 .quote--image{
   border-radius: 8px;
   height: 75vh;
-  /* max-height: 70%; */
-  /* height: 50vh; */
+  max-height: 70%;
+  height: 50vh;
 }
 .react--logo--image{
   height: 35px;

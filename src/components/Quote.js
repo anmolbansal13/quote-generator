@@ -56,10 +56,10 @@ export default function Quote(){
                     value={quote.bottomText} 
                     onChange={handleChange}  
                 />
-                <button className='form--input form--button'
-                    onClick={getQuoteImage}
-                    >Get a new Quote !!!</button>
             </div>
+            <button className='form--input form--button'
+                onClick={getQuoteImage}
+                >Get a new Quote !!!</button>
             <div className='quote'>
                 <img src={quote.randomImage} className='quote--image' />
                 <h2 className="quote--text top">{quote.topText}</h2>
